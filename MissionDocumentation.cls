@@ -31,6 +31,8 @@ public without sharing class MissionDocumentation{
       }else{
            BP_Logger.add('La entrada es erronea o nula');
       }
+       resultArray.sort();
+       return resultArray;
   }
 
   private List<Integer> missionDocumented(Integer rangeFrom,Integer rangeTo){
