@@ -1,0 +1,2 @@
+# loc
+Legends of Code
